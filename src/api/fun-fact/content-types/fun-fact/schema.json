@@ -1,0 +1,61 @@
+{
+  "kind": "singleType",
+  "collectionName": "fun_facts",
+  "info": {
+    "singularName": "fun-fact",
+    "pluralName": "fun-facts",
+    "displayName": "Fun-fact",
+    "name": "fun-fact"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "We always try to understand users expectation",
+      "required": true
+    },
+    "shortText": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "required": true
+    },
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "funfact-card.funfact-card",
+      "required": true
+    },
+    "infoTitle": {
+      "type": "string",
+      "default": "Have Any Questions About Us?",
+      "required": true
+    },
+    "infoShortText": {
+      "type": "string",
+      "default": "Don't hesitate to contact us",
+      "required": true
+    },
+    "contactText": {
+      "type": "string",
+      "default": "Contact Us",
+      "required": true
+    },
+    "contactUrl": {
+      "type": "string",
+      "default": "/contact",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "allowedTypes": [
+        "images"
+      ],
+      "multiple": false,
+      "required": true
+    }
+  }
+}

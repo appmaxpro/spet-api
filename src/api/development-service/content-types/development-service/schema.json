@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "development_services",
+  "info": {
+    "singularName": "development-service",
+    "pluralName": "development-services",
+    "displayName": "Development-service",
+    "name": "development-service"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "image": {
+      "type": "media",
+      "allowedTypes": [
+        "images"
+      ],
+      "multiple": false,
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "default": "Design & Development",
+      "required": true
+    },
+    "shortText": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "required": true
+    },
+    "serviceList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "service-list.service-list"
+    }
+  }
+}

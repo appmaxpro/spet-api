@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_services_headers",
+  "info": {
+    "singularName": "our-services-header",
+    "pluralName": "our-services-headers",
+    "displayName": "Our-services-header",
+    "name": "our-services-header"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Our Services",
+      "required": true
+    },
+    "shortText": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_features_headers",
+  "info": {
+    "singularName": "our-features-header",
+    "pluralName": "our-features-headers",
+    "displayName": "Our-features-header",
+    "name": "our-features-header"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Our Features",
+      "required": true
+    },
+    "shortText": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_partner_logo_partner_logos",
+  "info": {
+    "icon": "arrow-circle-right",
+    "displayName": "partnerLogo"
+  },
+  "options": {},
+  "attributes": {
+    "mainImg": {
+      "type": "media",
+      "allowedTypes": [
+        "images"
+      ],
+      "multiple": false,
+      "required": true
+    },
+    "hoverImg": {
+      "type": "media",
+      "allowedTypes": [
+        "images"
+      ],
+      "multiple": false,
+      "required": false
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

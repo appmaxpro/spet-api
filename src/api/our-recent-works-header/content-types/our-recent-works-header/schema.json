@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_recent_works_headers",
+  "info": {
+    "singularName": "our-recent-works-header",
+    "pluralName": "our-recent-works-headers",
+    "displayName": "Our-recent-works-header",
+    "name": "our-recent-works-header"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Our Recent Works",
+      "required": true
+    },
+    "shortText": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "required": true
+    }
+  }
+}
